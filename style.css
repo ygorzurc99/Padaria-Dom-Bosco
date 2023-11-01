@@ -1,0 +1,80 @@
+
+    *{       /*Configuraçao padrao de inicio de um projeto dentro do css*/
+        padding: 0;
+        margin: 0;
+        vertical-align: baseline;
+        list-style: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    header {
+        display: flex; /*RESPONSAVEL POR COLOCAR OS ITENS NA MESMA LINHA (lado a lado)*/
+        align-items: center; /*ALINHAr os itens do nosso header para o centro*/
+        justify-content: space-evenly; /*Traduçao : justificar conteudo : espaço uniformemente.
+        Alinhar os itens igualmente dentro da pagina*/
+        padding: 15px; /*Cuida do preenchimento*/
+        background-color: rgb(116, 77, 5);/*or de fundo do nosso Cabeçalho/Header*/
+        overflow: hidden;
+        line-height: 200px;/*Altura da linha*/
+        max-height: 200px;/*Altura maxima*/
+    }
+    header > h1 { /*Selecionamos aqui a cor da letra do nosso h1 ou seja, do nosso titulo*/
+        color: white; /*chamamos a propriedade color e definimos uma cor em questao*/
+    }
+
+    header > img { /*Aqui estamos chamando nossa imagem para ser atribuidas alteraçoes*/
+        width: 200px;/*Largura da nossa imagem*/
+        height: 200px; /*Tamanho da nossa imagem*/
+    }
+    #menu-header { /*Nosso menu de navegaçao*/
+        display: flex; /*Responsavel por colocar os itens na mesma linha (lado a lado)*/
+        align-items: center; /*Alinhar os itens do nosso header para o centro*/
+    }
+
+    #list-menu { /*Nossa lista nao ordenada aqui mudaremos diretamente nossa lista*/
+        display: flex; /*Responsavel por colocar os itens na mesma linha ( lado a lado)*/
+        margin-right: 1rem; /*margem da direita. 1 rem eqivale a 16 px ou seja podemos usa-lo para facilitar
+        a inserçao de px*/
+    }
+
+    .item-menu-header { /*Nossas li que estao dentro do list menu , onde se encontram os nomes dos itens 
+        apresentados no header*/
+        margin-right: 25px; /*margem da direita*/
+    }
+    .item-menu-header > a:hover { /*Nossas li que estao dentro do list menu. (a) nossa tag de link que é 
+        representada por : home/produtos/contato, eo hover responsavel pela modificaçao de cor ao passar o 
+        cursor em cima*/
+        color: yellow; /*Aqui atribuimos uma cor*/
+        transition: 1s;/* E o tempo em que será exibido ao passar o cursor*/
+    }
+
+    .item-menu-header > a {/**Nossas li que estao dentrodo list menu. (a) nossa tag de link que é 
+        representada por  HOME/PRODUTOS/CONTATO*/
+        color: white; /*Cor das letras*/
+        text-decoration: none; /*Responsavel por tirar o sublinhado inferior que esstava visivel*/
+        font-size: 12px; /*tamanho da letra*/
+
+    }
+    #botao-header { /*nossa id do botao de login*/
+        display: flex; /* Responsavel por colocar os itens na mesma linha ( lado a lado */
+    }
+    #botao-header > button { /* Aqui chamamos nossa ID e onde queremos fazer alteraçoes no caso 
+        o nosso botao  */
+        padding: 8px;/* Cuida do preenchimento*/
+        background-color: transparent; /* Aqui deixamos o fundo do botao transparent, ou seja sem  o fundo branco
+        que estava em primeiro plano*/
+        border: none;/* none é usado para retirar algo, nesse casoa borda*/
+
+    }
+    #botao-header > button > a { /* Estamos chamando aqui nossa Tag de link para alteraçao*/
+        display: flex; /* Responsavel por colocar os itens na mesma linha ( lado a lasdo)*/
+        align-items: center; /*Alinhar os itens para o centro*/
+
+    }#botao-header > button > a > img { /* Aqui estamos mexendo no ICON do botao*/
+        width: 30px; /* largura*/
+        height: 30px;/*tamanho*/
+        margin-right: 2px;/* margem da  */
+
+    }
+
+
