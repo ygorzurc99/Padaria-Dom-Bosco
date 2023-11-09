@@ -88,10 +88,11 @@
         background-size: cover;
     } 
     .img-div {/* Aqui chamamos nossa class para alteraçao*/
-        padding: 25px;
-        background-image: url(img/img-div.jpg);
-        background-position: center;
-        background-size: auto;
+        padding: 25px; /* cuida do preenchimento*/
+        background-image: url(img/img-div.jpg); /*usado para inserir imagens de fundo*/
+        background-position: center; /*aqui posicionamos nossa imagem para o centro*/
+        background-size: auto; /* background especifico o tamanho daos imagens de fundo . 
+        Auto Responsavel por preencrer totalmente a imagen*/
     }
    #clients > h2 {
     text-align: center; /*Alinhamos o texto ao centro*/
@@ -99,13 +100,14 @@
     margin-top: 40px; /* Espaçamento superior*/
    }
 
-   #clients {
-    background-color: rgb(255, 254, 254);
-    padding: 50px;
-    margin-top: 0;
+   #clients {/* Aqui chamamos nossa id da section*/
+    background-color: rgb(255, 254, 254); /* cor de fundo da section*/
+    padding: 50px; /* indica o espaço a cima do elemento/ superior*/
+    margin-top: 0; /* cuida do preenchimento*/
    }
 
-   .line {
+   .line { /*Aqui chamamos nosssa class que esta dentro do nosso hr que é usado como uma qubra
+    de linha tematica entre elementos html*/
     margin: 0 auto;
     width: 30%; 
    }
@@ -129,17 +131,22 @@
     height: 84px;
    }
 
-   .clients-item > h3 {
+   .clients-item > h3 { /* aqui chamamos nosso h3 para estilizaçao*/
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 25px;
-    margin-top: 10px;
-    align-items: center;
+    font-size: 25px;/* tamanho da fonte*/
+    margin-top: 10px; /* indica o espaço a cima do elemento superior*/
+    align-items: center; /* alinhar os itens ao centro*/
    }
-   .clients-item > p {
+   .clients-item > p { /* aqui chamamos nossa tag para estilizaçao*/
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
     margin-top: 10px;
     align-items: center;
+   }
+
+   #products {
+    padding: 30px;
+    background-color: bisque;
    }
 
 
