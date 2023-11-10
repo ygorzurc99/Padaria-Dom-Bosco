@@ -144,10 +144,83 @@
     align-items: center;
    }
 
-   #products {
-    padding: 30px;
-    background-color: bisque;
-   }
+#product { /* ID usada para a section dos nossos produtos*/
+    background: linear-gradient(180deg, #d49664 8.33%, rgba(244,200,175,0)100% ); /* Aqui colocamos 
+    uma estilizaçao de fundo em degrade*/
+
+    padding: 30px; /* preencimento*/
+
+}
+  #product > h2 {
+        text-align: center;
+    }
+    .section-produtos { /* Chamamos nosssa div pai para estilizaçao*/
+        margin-top: 3em; /* espaçamento superior*/
+        display: flex; /*tornando essa sessao flex e jogando lado a lado*/
+        justify-content: space-evenly; /* espaçamento justificado*/
+        align-items: center; /* Alinhando itens ao centro*/
+    }
+
+    .img-product { /* Aqui chamamos nossa imagens para ediçao*/
+        width: 300px; /* Largura das imagens*/
+        height: 300px; /* Altura das imagens */
+        border-radius: 50px; /*Arredondamento das bordas*/
+    }
+    .title-products { /* chamamos nosso titulo para estilizaçao*/
+        margin-top: 10px; 
+        font-family: Arial, Helvetica, sans-serif; /* familia de fonte*/
+        text-align: center; /* alinhamento do texto ao centro*/
+        font-size: 22px;/*tamanho da letra*/
+    }
+
+    #product > a { /* aqui chamamos nossa tag a para estilizaçao*/
+        text-decoration: none; /* Desabilitamos a decoraçao */
+        font-family: Arial, Helvetica, sans-serif;  /* familia de fonte*/
+        font-size: 20px;/*tamanho da fonte*/
+        color: black; /*cor da letra*/
+        display: flex;/*Tornando em flex*/
+        justify-content: center;/*alinhando ao centro*/
+        text-align: center; /*alinhando ao centro*/
+    }
+
+  
+    #product > a:hover { /* Efeito ao passa o mouse*/
+        font-size: 22px; /* Tamanho das letra*/
+        transition: 0.8s; /* Tempo de transiçao ao passar o mouse*/
+        color: tomato; /* Cor da letra ao passar o mouse*/
+
+    } 
+
+    #sobre-nos { /*Chamamos nosso sobre nos para estilizaçao*/
+        background-image: url(img/fundo-sobre-nos.jpg);/* Inserimos aqui nossa imagem*/
+        background-repeat: no-repeat;/*nao repetiçao da imagem*/
+        background-position: center;/*Posicionamento da imagem ao centro*/
+        background-size: cover;/*Habilitando o tamanho total da imagem*/
+        background-attachment: fixed;/*Deixando a imagem fixada*/
+        padding: 120px;/* Tamanho do preenchimento da sassao*/
+    }
+
+    /*h3 alterem a cor , tamanho, alinhamento e familia da fonte*/
+
+    #sobre-nos > h3 {
+        color: rgb(249, 249, 250);
+        font-size: 45px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    #sobre-nos > p {
+        color: white;
+        
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        font-size: 22px;
+        margin-top: 2em;
+        text-align: left;
+    }
+
+
+
 
 
 
