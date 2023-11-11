@@ -219,6 +219,48 @@
         text-align: left;
     }
 
+    footer {
+        padding: 80px;
+        background-image: url(img/img-footer.jpg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+
+    }
+
+    footer ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    footer h2 {
+        color: black;
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .item-menu-footer {/* Aqui chamamos nossa class das LI */
+        align-items: center; /* Posicionamos ao centro*/
+        margin-top: 30px;/* Espaçamento superior*/
+        display: flex;/* Alinhando  os itens lado a lado*/
+    }
+    .item-menu-footer img { /*Aqui chamamos nossa img para estilizaçao*/
+        width: 34px; /* largura da img*/
+        height: 34px;/*altura*/
+    }
+
+    /*Chamem a TAG P para estilizaçao*/
+    .item-menu-footer p {
+        color: black; /*Cor da letra*/
+        font-size: 24px; /* Tamanho da letra*/
+        font-weight: bold; /* Espessura da letra*/
+        margin-left: 10px; /* Espaçamento á esquerda*/
+    }
+
+
+    
+
 
 
 
