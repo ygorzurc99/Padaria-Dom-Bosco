@@ -1,0 +1,53 @@
+/*Configuraçao  padrao  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*Aqui colocamos estilizaçao no corpo da pagina (Body)*/
+
+body {
+    width: 100%; /* largura*/
+    height: 100vh;/* tamanho*/
+    background-image: url(img/img-footer.jpg); /*Aqui inserimos a imagem*/
+    background-position: center; /* Posicionamos a imagem ao centro*/
+    background-repeat: no-repeat; /*Colocamos para que a img não se repita*/
+    background-size: cover; /*Aqui atribuimos para que a imagem fique sobre toda nossa pagina*/
+    display: flex; /* Responsavel por colocar os itrns na mesma linha (lado a lado)*/
+    align-items: center; /* Alinhar os itens para o centro*/
+    justify-content: center;/* Justificar conteudo ao centro*/
+}
+
+.container { /* Aqui estamos chamamos nossa Class da DIV PAI*/
+    max-width: 1280px; /*Atribuimos aqui um tamanho máximo de largura que essa CLass irá exercer*/
+    margin: 0 auto;/* dizemos ao navegador que as margens superior e inferior são iguais a 0 e as da esquerda e d
+    direita são automáticas*/
+}
+
+form { /*Aqui chamamos nosso Form para Estilizaçao*/
+    background-color: white; /*Colocamos uma cor de fundo*/
+    max-width: 500px; /* Atribuimos aqui um tamanho máximo de largura que esse formulario irá exercer*/
+    height: 450px; /*Largura do formulario*/
+    padding: 40px; /* Preenchimento*/
+    border-radius: 20px;/* Arredondamento das bordas do Formulário*/
+}
+
+form h1 { /* Chamamos nosso Texto para estilizaçao*/
+    text-align: center; /* Alinhamos ao centro*/
+    font-size: 30px; /*Tamanho da letra*/
+    color: black; /* cor da letra*/
+}
+
+form p { /* Chamamos nosso Paragrafo para estilização*/
+    text-align: center; /* Alinhando para  o cenrtro nosso Paragrafo*/
+    margin: 20px 0;/**/
+}
+
+.input-single { /*Chamamos nossa class que está encabeçada nas Divs dos nossos Input e label*/
+    position: relative;/* Posiçao relativa*/
+    margin: 20px 0;/* dizemos ao navegador que as margens superior e inferior saõ iguais a 20 e as da esquerda
+    e direita sao 0*/
+}
+
