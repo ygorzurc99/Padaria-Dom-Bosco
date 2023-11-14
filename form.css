@@ -51,3 +51,18 @@ form p { /* Chamamos nosso Paragrafo para estilização*/
     e direita sao 0*/
 }
 
+.input-single > label { /* Chamamos nossa label para estilizaçao*/
+    position: absolute; /* Atribuimos uma posiçao absoluta */
+    left: 0; /* Zeramos a margin esquerda*/
+    bottom: 5px; /* Margem inferior atribuimos para 5 px*/
+    transition: all 0.2s; /*Inserimos uma transição total para 0.2s */
+    cursor: text; /* Aqui é para quando passar o mouse, aparecer o indicador de texto*/
+}
+
+.input { /* Aqui chamamos nosso  Subimit ou seja , o botão parea estilização*/
+    width: 100%; /* largura*/
+    border: 0; /* tamanho da borda*/
+    border-bottom: 2px solid #ccc ;/*estilização da borda inferior*/
+}
+
+
