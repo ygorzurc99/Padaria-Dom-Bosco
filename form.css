@@ -52,7 +52,7 @@ form p { /* Chamamos nosso Paragrafo para estilização*/
 }
 
 .input-single > label { /* Chamamos nossa label para estilizaçao*/
-    position: absolute; /* Atribuimos uma posiçao absoluta */
+    position: absolute; /* Atribuimos uma posiçao absoluta  em relação a o formulario*/
     left: 0; /* Zeramos a margin esquerda*/
     bottom: 5px; /* Margem inferior atribuimos para 5 px*/
     transition: all 0.2s; /*Inserimos uma transição total para 0.2s */
@@ -77,7 +77,21 @@ form .input-single .input:valid ~ label{ /**/
 
 .btn { /*Aqui estamos chamando nossa class .btn para estilização*/
     width: 100%; /*largura*/
-    
+    text-align: center;/*  Alinhando  o texto ao centro*/
+
+}
+
+form input[type=submit]{/*Aqui estilizamos nosso Botão de enviar*/
+    padding: 10px 40px; /*Preenchimento da altura e largura do botão*/
+    border: 0; /*Aqui zeramos a borda*/
+    border-radius: 10px; /*Colocamos aqui um arredondamento no botão*/
+    background-color: rgb(6, 63, 63); /*cor do botao*/
+    color: rgb(255, 255, 255); /*Cor da letra ( dentro do |Botão)*/
+    cursor: pointer;/*Torna o botão em algo clicavel*/
+}
+
+.form-container {
+    opacity: 90%;
 }
 
 
