@@ -87,7 +87,7 @@
         background-size: cover;
     } 
     .img-div {/* Aqui chamamos nossa class para alteraçao*/
-        padding: 25px; /* cuida do preenchimento*/
+        padding: 2.5%; /* cuida do preenchimento*/
         background-image: url(img/img-div.jpg); /*usado para inserir imagens de fundo*/
         background-position: center; /*aqui posicionamos nossa imagem para o centro*/
         background-size: auto; /* background especifico o tamanho daos imagens de fundo . 
@@ -256,6 +256,7 @@
         font-weight: bold; /* Espessura da letra*/
         margin-left: 10px; /* Espaçamento á esquerda*/
     }
+    /*Aqui atualaizamos o nossso css para celular por exemplo*/
 
     @media(max-width:430px) {
         #menu-header {
@@ -300,6 +301,10 @@
         #img-padaria {
             width: 100%;
 
+        }
+
+        #clients > h2 {
+            font-size: 2em;
         }
 
     }
