@@ -306,6 +306,14 @@
         #clients > h2 {
             font-size: 2em;
         }
+        #clients-list {
+            display: block;
+            margin-bottom: 10%;
+        }
+
+        .section-produtos {
+            display: block;
+        }
 
     }
 
