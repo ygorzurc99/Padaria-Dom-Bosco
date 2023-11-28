@@ -12,11 +12,10 @@
         align-items: center; /*ALINHAr os itens do nosso header para o centro*/
         justify-content: space-evenly; /*Traduçao : justificar conteudo : espaço uniformemente.
         Alinhar os itens igualmente dentro da pagina*/
-        padding: 15px; /*Cuida do preenchimento*/
+        padding: 2%; /*Cuida do preenchimento*/
         background-color: rgb(116, 77, 5);/*or de fundo do nosso Cabeçalho/Header*/
         overflow: hidden;
-        line-height: 200px;/*Altura da linha*/
-        max-height: 200px;/*Altura maxima*/
+        
     }
     header > h1 { /*Selecionamos aqui a cor da letra do nosso h1 ou seja, do nosso titulo*/
         color: white; /*chamamos a propriedade color e definimos uma cor em questao*/
@@ -81,9 +80,9 @@
         text-decoration: none; /*Responsavel por tirar o sublinhado que estava visivel*/
         font-weight: 400;/*espessura da fonte*/
     }
-    #img-destaque{
-        background-image: url(img/padaria\ \(1\).webp);
-        padding: 260px;
+    #img-destaque{/* aqui chamamos a id que chamamos no HTML*/
+        background-image: url(img/padaria\ \(1\).webp);/* usado para inserir imagens de fundo*/
+        padding: 20%; /*cuida do preenchimento*/
         background-position: center;
         background-size: cover;
     } 
@@ -275,7 +274,34 @@
 
         #btn-header button a img {
             width: 30%;
+            height: auto;
         }
+
+        header img {
+            width: 40px; /* iremos modificar*/
+            height: 40px;
+        } 
+        
+        header h1 {
+            font-size: 1em;
+
+        }
+
+        header {
+            padding: 5%;
+        }
+
+        #img-destaque {
+            max-width: 100%;
+            height: auto;
+            
+        }
+
+        #img-padaria {
+            width: 100%;
+
+        }
+
     }
 
 
