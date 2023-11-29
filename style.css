@@ -256,7 +256,8 @@
         font-weight: bold; /* Espessura da letra*/
         margin-left: 10px; /* Espaçamento á esquerda*/
     }
-    /*Aqui atualaizamos o nossso css para celular por exemplo*/
+    /*Aqui atualizamos o nossso css para
+     celular por exemplo*/
 
     @media(max-width:430px) {
         #menu-header {
@@ -264,7 +265,8 @@
         }
 
         #btn-header button a {
-            display: block;
+            display: block; /* deixar 
+            os itens em blocos , um abaixo do outro*/
             font-family: bold;
         }
 
@@ -303,18 +305,32 @@
 
         }
 
-        #clients > h2 {
-            font-size: 2em;
+        #clients > h2 { /* Aqui puxamos o tamanho da letra 
+            de nossos clientes na parte do celular*/
+            font-size: 1.7em; /* Aqui puxamos o tamanho 
+            da letra de nossos clientes*/
         }
+        .line {
+            margin: 0 auto;
+            width: 70%;
+        }
+
+
         #clients-list {
-            display: block; /* deixar os itens em blocos , um abaixo do outro*/
+            display: block; /* deixar os itens em blocos , 
+            um abaixo do outro*/
+            font-size: 1.4em;
             margin-bottom: 10%;
             text-align: center;/* alinhar o texto ao centro*/
         }
 
+       
+        
+
         .section-produtos {
-            display: block;
-            text-align: center;
+            display: block;/* deixar os itens 
+            em blocos , um abaixo do outro*/
+            text-align: center; /* alinhar os itens ao centro*/
         }
 
     }
