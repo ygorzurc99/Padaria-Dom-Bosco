@@ -8,6 +8,18 @@
     <title>Padaria Dom Bosco</title>
 </head>
 <body>
+    <!-- Aqui colocamos a parte das libras -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget();
+      </script>
+
     <!-- aqui começamos nosso cabeçalho -->
     <header>
         <img src="img/Pão Puma.png" alt="">
@@ -46,17 +58,19 @@
         </div>
     </header>
 
+
     <div id="img-padaria">
-
-    <div id="img-destaque"></div>
-
+        <div id="img-destaque"></div>
     </div>  
+
+
+
 
     <div class="img-div"></div>
 
     <main>
 
-    <section id="clients">
+         <section id="clients">
 
             <h2>NOSSOS CLIENTES</h2>
 
@@ -90,7 +104,8 @@
 
         <h2>PRINCIPAIS PRODUTOS</h2>
 
-        <!-- aqui adicionamos uma div pai com class para mexer de dois em dois produtos -->
+        <!-- aqui adicionamos uma div Pai com class para mexer de dois em dois produtos -->
+
         <div class="section-produtos">
 
                  <div >
@@ -170,9 +185,12 @@
     </section>
 
     <footer id="CONTATOS">
+
         <h2>CONTATOS</h2>
 
-        <ul>
+
+
+        <ul class="contatos-footer">
                 <div>
                     <li class="item-menu-footer">
                         <img src="img/icon-telephone.png" alt="">
@@ -203,4 +221,13 @@
 </body>
 </html>
 
-<!-- apertar f5 para execultar ou com o botao direito revelar  -->
+<!-- apertar f5 para execultar ou com o botao direito revelar 
+
+ /*Diferença entre ID e CLASS: A diferença entre um id e uma class é que um id é usado apenas para identificar
+    um unico elemento em nosso HTML. Os identificadores são usados apenas quando um elemento na pagina precisa
+    ter um estilo especoifico aplincado a ele.
+    no entanto, uma class pode ser usada para identificar mais de um elemento HTML*/
+
+
+    /*apertar f5 para execultar*/-->
+

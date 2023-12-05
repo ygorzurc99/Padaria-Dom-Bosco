@@ -196,14 +196,14 @@
         background-position: center;/*Posicionamento da imagem ao centro*/
         background-size: cover;/*Habilitando o tamanho total da imagem*/
         background-attachment: fixed;/*Deixando a imagem fixada*/
-        padding: 120px;/* Tamanho do preenchimento da sassao*/
+        padding: 10%;/* Tamanho do preenchimento da sessao*/
     }
 
     /*h3 alterem a cor , tamanho, alinhamento e familia da fonte*/
 
     #sobre-nos > h3 {
         color: rgb(249, 249, 250);
-        font-size: 45px;
+        font-size: 4em;
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
 
@@ -256,6 +256,20 @@
         font-weight: bold; /* Espessura da letra*/
         margin-left: 10px; /* Espaçamento á esquerda*/
     }
+
+ /*Diferença entre ID e CLASS: A diferença entre um id e uma class é que um id é usado apenas para identificar
+    um unico elemento em nosso HTML. Os identificadores são usados apenas quando um elemento na pagina precisa
+    ter um estilo especoifico aplincado a ele.
+    no entanto, uma class pode ser usada para identificar mais de um elemento HTML*/
+
+
+    /*apertar f5 para execultar*/
+
+
+
+
+
+
     /*Aqui atualizamos o nossso css para
      celular por exemplo*/
 
@@ -297,6 +311,7 @@
         #img-destaque {
             max-width: 100%;
             height: auto;
+            background-position: center;
             
         }
 
@@ -331,6 +346,36 @@
             display: block;/* deixar os itens 
             em blocos , um abaixo do outro*/
             text-align: center; /* alinhar os itens ao centro*/
+            margin-top: 30px;
+        }
+
+        .img-product {
+            margin-top: 40px;
+        }
+
+        #product > a { /* Aqui chamamos a sessao de ver tudo*/
+            margin-top: 25px;
+        }
+
+        #sobre-nos > h3 {
+            font-size: 1.7em;
+        }
+
+        #sobre-nos p {
+            font: bold; /* deixar a letra um pouco mais grossa*/
+            font-size: 1.2em;
+        }
+        
+        .contatos-footer {
+            display: block; /* Colocar os itens um abaixo do outro*/
+        }
+
+        .item-menu-footer {
+            font-size: 1em;
+        }
+
+        #CONTATOS > h2 {
+            font-size: 2em;
         }
 
     }
